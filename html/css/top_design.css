@@ -1,0 +1,23 @@
+.box1 {
+    padding: 0.5em 1em;
+    margin: 1em 0.2em;
+    color: #2c2c2f;
+    background: #F0FFF0;
+}
+
+.more {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, "ƒqƒ‰ƒMƒmŠpƒSƒVƒbƒN Pro", "Hiragino Kaku Gothic Pro", 'ƒƒCƒŠƒI' , Meiryo , Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    margin: 1em 0.2em;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #000;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -ms-font-smoothing: subpixel-antialiased;
+    -o-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
+}
