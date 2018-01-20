@@ -4,20 +4,29 @@
     color: #2c2c2f;
     background: #F0FFF0;
 }
-
-.more {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, "ÉqÉâÉMÉmäpÉSÉVÉbÉN Pro", "Hiragino Kaku Gothic Pro", 'ÉÅÉCÉäÉI' , Meiryo , Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    margin: 1em 0.2em;
-    font-size: 20px;
-    line-height: 24px;
-    cursor: pointer;
-    color: #000;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-font-smoothing: subpixel-antialiased;
-    -ms-font-smoothing: subpixel-antialiased;
-    -o-font-smoothing: subpixel-antialiased;
-    font-smoothing: subpixel-antialiased;
+h1{
+font-size:30px;color:#0000FF
 }
+dt em{
+color:blue;font-size:30px;
+}
+dt{
+color:glay;font-size:20px;
+}
+img.example1
+{ position: absolute;
+  top: 100px;
+  right: 50px;
+}
+img.example1 
+{ vertical-align: baseline; 
+}
+strong{
+color:glay;font-size:40px;
+}
+a{
+color:glay;font-size:20px;
+}
+
+
+
