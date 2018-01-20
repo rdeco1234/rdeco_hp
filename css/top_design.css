@@ -12,16 +12,18 @@ background-image:url(./img/freelancetop.JPG);
 text-align:center;
 }
 
+
+#container {
+width:1400px;
+text-align:left;
+background-color:#ffffff;
+}
+
+
 #header h1{
 color:#F0FFF0;
 }
 
-#container {
-width:1000px;
-text-align:left;
-background-color:#FFFFFF;
-border:solid 1px #000000;
-}
 
 strong{
 color:glay;font-size:30px;
@@ -36,22 +38,6 @@ color:blue;font-size:30px;
 dt{
 color:glay;font-size:20px;
 }
-img.example1
-{ position: absolute;
-  top: 100px;
-  right: 50px;
-}
-img.example1 
-{ vertical-align: baseline; 
-}
-a{
-color:glay;font-size:20px;
-}
-#container {
-width:750px;
-text-align:left;
-background-color:#ffffff; /* エントリ部分の背景を白に */
-border:solid 1px #000000;
-}
+
 
 
