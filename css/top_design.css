@@ -5,6 +5,24 @@
     background: #F0FFF0;
 }
 
+#header {
+padding:20px;
+background-color:#FFFFFF;
+background-image:url(./img/freelancetop.JPG);
+text-align:center;
+}
+
+#header h1{
+color:#F0FFF0;
+}
+
+#container {
+width:1000px;
+text-align:left;
+background-color:#FFFFFF;
+border:solid 1px #000000;
+}
+
 strong{
 color:glay;font-size:30px;
 }
@@ -29,6 +47,11 @@ img.example1
 a{
 color:glay;font-size:20px;
 }
-
+#container {
+width:750px;
+text-align:left;
+background-color:#ffffff; /* エントリ部分の背景を白に */
+border:solid 1px #000000;
+}
 
 
