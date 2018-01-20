@@ -3,9 +3,13 @@
     margin: 1em 0.2em;
     color: #2c2c2f;
     background: #F0FFF0;
+
+strong{
+color:glay;font-size:35px;
 }
+
 h1{
-font-size:30px;color:#0000FF
+font-size:20px;color:#0000FF
 }
 dt em{
 color:blue;font-size:30px;
@@ -20,9 +24,6 @@ img.example1
 }
 img.example1 
 { vertical-align: baseline; 
-}
-strong{
-color:glay;font-size:40px;
 }
 a{
 color:glay;font-size:20px;
