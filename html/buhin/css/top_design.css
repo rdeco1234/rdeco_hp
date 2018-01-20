@@ -1,4 +1,4 @@
-.box1 {
+ï»¿.box1 {
     padding: 0.5em 1em;
     margin: 1em 0.2em;
     color: #2c2c2f;
@@ -6,7 +6,7 @@
 }
 
 .more {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, "ƒqƒ‰ƒMƒmŠpƒSƒVƒbƒN Pro", "Hiragino Kaku Gothic Pro", 'ƒƒCƒŠƒI' , Meiryo , Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, "ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ã‚·ãƒƒã‚¯ Pro", "Hiragino Kaku Gothic Pro", 'ãƒ¡ã‚¤ãƒªã‚ª' , Meiryo , Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
     position: absolute;
     width: 100%;
     z-index: 1;
