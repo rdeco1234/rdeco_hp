@@ -1,1 +1,1 @@
-document.write(window.location.href.split('/').pop());
+﻿document.write(window.location.href.split('/').pop());
