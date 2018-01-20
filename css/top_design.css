@@ -7,13 +7,18 @@
 
 #header {
 padding:20px;
-background-color:#FFFFFF;
+background-color:#C0C0C0;
 background-image:url(./img/freelancetop.JPG);
 text-align:center;
 }
 
 
+
+
+
+
 #container {
+position: relative;
 width:1400px;
 text-align:left;
 background-color:#ffffff;
