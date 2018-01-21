@@ -5,10 +5,17 @@
     background: #F0FFF0;
 }
 
+#header {
+position: relative;
+width:100%;
+text-align:center;
+background-color:#ffffff;
+}
+
 #container {
 position: relative;
-width:1400px;
-text-align:left;
+width:100%;
+text-align:center;
 background-color:#ffffff;
 }
 
