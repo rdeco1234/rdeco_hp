@@ -30,3 +30,30 @@ color:glay;font-size:20px;
 
 
 
+
+#header {
+position: relative;
+width:100%;
+text-align:center;
+background-color:#ffffff;
+}
+
+#container {
+position: relative;
+width:100%;
+text-align:center;
+background-color:#ffffff;
+}
+
+
+#header h1{
+color:#000000;
+}
+
+
+strong{
+color:glay;font-size:30px;
+}
+
+
+
