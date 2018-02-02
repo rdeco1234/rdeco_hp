@@ -1,10 +1,4 @@
 ﻿
-
-body{
-  padding:45px;
-  font-family: 'Oswald', sans-serif;
-}
-
 .btn{
   color:#FFF;
   background:rgba(0, 0, 0, 0.5);
@@ -21,18 +15,4 @@ body{
   background:#fff;
   padding:20px 20px; #000;
   color:#1b1b1b;
-}
-
-.footer{
-  font-size:8px;
-  color:#fff;
-  clear:both;
-  display:block;
-  letter-spacing:5px;
-  border:1px solid #fff;
-  padding:5px;
-  text-decoration:none;
-  width:210px;
-  margin:auto;
-  margin-top:400px;
 }
