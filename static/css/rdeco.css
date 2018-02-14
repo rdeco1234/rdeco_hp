@@ -83,3 +83,20 @@ rdeco ul li a{
 rdeco ul li:hover a{
     text-align:center;
 }
+
+/* 見出し */
+tm {
+    font-size: 35px;
+    color: black;
+}
+
+/* 見出し */
+tm2 {
+    font-size: 30px;
+    color: black;
+}
+
+tm3 {
+    font-size: 25px;
+    color: black;
+}
