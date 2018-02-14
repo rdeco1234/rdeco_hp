@@ -1,59 +1,121 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PV97DXP');</script>
-<!-- End Google Tag Manager -->
+  <head>
+     <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PV97DXP');</script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>R-deco Map</title>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV97DXP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
+<meta charset="UTF-8">
+<meta name="keywords" content="フリーランス">
+<meta name="description" content="フリーランスになりたい方必見、高単価案件紹介中">
+<meta http-equiv="content-language" content="ja">
+<meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=yes">
 
-
-
-<meta name="viewport" content="initial-scale=1.0">
-<meta charset="utf-8">
-<title>R-deco Map</title>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true">
-</script>
-
-<script type="text/javascript">
-function initialize(){
-	document.write("sss");
-	var latlng = new google.maps.LatLng(35.668860, 139.716087);
-	var myOptions = {
-		zoom: 8,
-		center: latlng,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	};
-	var map = new google.maps.Map(document.getElementById("rdeco_map"),myOptions);
-}
-</script>
-<script>window.onload=initialize()
-</script>
+<link href="./css/company_gaiyo_design.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="./static/css/bootstrap.min.css">
+<link rel="stylesheet" href="./static/css/rdeco.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 
-<body>
+<!-- ********************************* body ************************************ -->
+
+<body link="#20B2AA" vlink="#7B68EE" alink="#00CED1">
+
+<script src="./static/js/jquery-2.1.4.min.js"></script>
+<script src="./static/js/bootstrap.min.js"></script>
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV97DXP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
- <div id="rdeco_map" style="width: 100%;height: 100%"></div>
+
+<!--***********
+Grid System
+***************-->
+<div class="container-fluid">
+<div class="row">
+
+<!--***********
+Header
+***************-->
+<div class="rdeco_normal_header">
+    <p class="resizeimage">
+    <img src='./img/rdeco-logo.png' width="45" height="45">
+    <td><img src='./img/rdeco.png' width="270" height="70"></td>
+    </p>
+</div>
+
+<!--***********
+Menu
+***************-->
+<!-- top nav -->
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <!-- top menu -->
+    <div class="collapse navbar-collapse" id="top-nav">
+        <!-- main navbar -->
+        <rdeco>
+        <ul class="nav navbar-nav">
+            <li><a href="../../index.html">TOPページ</a></li>
+            <li><a href="../member/member.html">メンバー紹介</a></li>
+            <li><a href="../blog/test/blog.html">ブログ</a></li>
+            <li><a href="../ryoukin/ryokin.html">料金</a></li>
+            <li><a href="../saiyou/saiyou.html">採用情報</a></li>
+            <li><a href="../dance/dance.html">ダンス動画</a></li>
+            <li><a href="../access/access.html">アクセス</a></li>
+            <li><a href="http://www.rdeco.sakura.ne.jp/django.cgi/app/contact/">お問い合わせ</a></li>
+        </ul>
+        </rdeco>
+    </div>
+</nav>
 
 
-
-
-
-
-ここに見出し</br>
-</br>
-============================================================</br>
-</br>
-ここにコンテンツ</br>
-</br>
-</br>
-</body>
+    <div id="rdeco_map" style="width:60%;height:300px"></div>
+    ここに見出し</br>
+    </br>
+    ============================================================</br>
+    </br>
+    ここにコンテンツ</br>
+    </br>
+    </br>
+    <script>
+      function initMap() {
+        var latlng = new google.maps.LatLng(35.668860, 139.716087);
+        var map = new google.maps.Map(document.getElementById('rdeco_map'), {
+          zoom: 18,
+          center: latlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+        var marker = new google.maps.Marker({
+          position: latlng,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAbmyb2Qen81JOhogZ_oRVI2XJxScM8Gw&callback=initMap">
+    </script>
+  </body>
 </html>
