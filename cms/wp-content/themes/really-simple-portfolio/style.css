@@ -316,7 +316,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a{
-color: #518e00;
+color: glay;
 text-decoration: none;
 }
 
@@ -1036,7 +1036,7 @@ h2.entry-title {
     font-size: 30px;
     font-size: 3rem;
     font-weight: 400;
-    color: #518e00;
+    color: glay;
     line-height: normal;
 }
 
