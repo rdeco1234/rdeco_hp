@@ -99,11 +99,11 @@ tm3 {
 }
 
 /* TOP画像 */
-topimg {
+.topimg {
   position: relative;
 }
 
-topimg p {
+.topimg p {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -118,6 +118,6 @@ topimg p {
   font-family :Quicksand, sans-serif;/*Google Font*/
 }
 
-topimg img {
+.topimg img {
   width: 100%;
 }
