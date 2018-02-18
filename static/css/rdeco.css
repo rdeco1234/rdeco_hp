@@ -114,7 +114,7 @@ topimg p {
   padding:0;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 10em;/*サイズ2倍*/
+  font-size: 2em;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
 }
 
