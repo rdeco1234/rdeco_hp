@@ -99,11 +99,11 @@ tm3 {
 }
 
 /* TOP画像 */
-.topimg {
+topimg {
   position: relative;
-  }
+}
 
-.topimg p {
+topimg p {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -112,9 +112,12 @@ tm3 {
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
-  /*文字の装飾は省略*/
-  }
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 10em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+}
 
-.topimg img {
+topimg img {
   width: 100%;
-  }
+}
