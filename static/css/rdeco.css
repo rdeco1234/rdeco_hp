@@ -102,7 +102,6 @@ tm3 {
 .topimg {
   position: relative;
 }
-
 .topimg p {
   position: absolute;
   top: 50%;
@@ -114,10 +113,9 @@ tm3 {
   padding:0;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 2em;/*サイズ2倍*/
+  font-size: 1.8em;/*サイズ2倍*/
   font-family :Quicksand, sans-serif;/*Google Font*/
 }
-
 .topimg img {
   width: 100%;
   height: auto;
