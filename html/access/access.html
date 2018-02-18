@@ -1,23 +1,15 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PV97DXP');</script>
-    <!-- End Google Tag Manager -->
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>R-deco Map</title>
-  </head>
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV97DXP"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+﻿<html>
 
+<!-- ******************************** header ************************************ -->
+
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PV97DXP');</script>
+<!-- End Google Tag Manager -->
 
 <meta charset="UTF-8">
 <meta name="keywords" content="フリーランス">
@@ -25,24 +17,22 @@
 <meta http-equiv="content-language" content="ja">
 <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=yes">
 
-<link href="./css/company_access_map.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://rdeco.sakura.ne.jp/rdeco_hp/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/css/rdeco.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+<script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $("#header").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/header.html");
+  })
+</script>
 </head>
 
+
 <!-- ********************************* body ************************************ -->
-
 <body link="#20B2AA" vlink="#7B68EE" alink="#00CED1">
-
-<script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/js/jquery-2.1.4.min.js"></script>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV97DXP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<link href="./css/top_design.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--***********
 Grid System
@@ -53,77 +43,50 @@ Grid System
 <!--***********
 Header
 ***************-->
-<div class="rdeco_normal_header">
-    <p class="resizeimage">
-    <img src='./img/rdeco-logo.png' width="45" height="45">
-    <td><img src='./img/rdeco.png' width="270" height="70"></td>
-    </p>
-</div>
+<div id="header"></div>
+
+<!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
+<!-- *********   ！！！！！！！！ここから下を編集！！！！！！！！ 　*********** -->
+<!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
 
 <!--***********
-Menu
+Content
 ***************-->
-<!-- top nav -->
-<nav class="navbar navbar-default">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <!-- top menu -->
-    <div class="collapse navbar-collapse" id="top-nav">
-        <!-- main navbar -->
-        <rdeco>
-        <ul class="nav navbar-nav">
-            <li><a href="../../index.html">TOPページ</a></li>
-            <li><a href="../kaisya/gaiyou.html">会社概要</a></li>
-            <li><a href="../member/member.html">メンバー紹介</a></li>
-            <li><a href="../blog/test/blog.html">ブログ</a></li>
-            <li><a href="../ryoukin/ryokin.html">料金</a></li>
-            <li><a href="../saiyou/saiyou.html">採用情報</a></li>
-            <li><a href="../dance/dance.html">ダンス動画</a></li>
-            <li><a href="http://www.rdeco.sakura.ne.jp/django.cgi/app/contact/">お問い合わせ</a></li>
-        </ul>
-        </rdeco>
-    </div>
-</nav>
-    <div id="container">
+<div id="container">
 <div>‐東京本社‐</div>
-    <div id="rdeco_map" style="width:60%;height:300px"></div>
-</br>
-</br>
-    住所 / 東京都港区南青山 3-1-3</br>　スプライン青山東急ビル6階</br>
-    ※事前にご連絡の上、ご訪問ください。</br></br>
-    外苑駅の1a出口を出て正面50m直進。最初に見える信号を左手に曲がるとビルが見えてまいります。
-
+<div id="rdeco_map" style="width:60%;height:300px"></div>
+</br></br>
+住所 / 東京都港区南青山 3-1-3</br>
+スプライン青山東急ビル6階</br>
+※事前にご連絡の上、ご訪問ください。</br></br>
+外苑駅の1a出口を出て正面50m直進。最初に見える信号を左手に曲がるとビルが見えてまいります。
 </div>
-    </br>
-    
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    <script>
-      function initMap() {
-        var latlng = new google.maps.LatLng(35.668860, 139.716087);
-        var map = new google.maps.Map(document.getElementById('rdeco_map'), {
-          zoom: 16,
-          center: latlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        });
-        var marker = new google.maps.Marker({
-          position: latlng,
-          map: map
-        });
-      }
-    </script>
+</br></br></br></br></br></br>
+<script>
+  function initMap() {
+    var latlng = new google.maps.LatLng(35.668860, 139.716087);
+    var map = new google.maps.Map(document.getElementById('rdeco_map'), {
+      zoom: 16,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    var marker = new google.maps.Marker({
+      position: latlng,
+      map: map
+    });
+  }
+</script>
 <div id="rdeco_map">
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAbmyb2Qen81JOhogZ_oRVI2XJxScM8Gw&callback=initMap">
     </script>
-   </div>
-  </body>
+</div>
+
+<!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
+<!-- *********   ！！！！！！！！ここから上を編集！！！！！！！！ 　*********** -->
+<!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
+</div>
+</div>
+
+</body>
 </html>
