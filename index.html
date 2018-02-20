@@ -25,28 +25,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/css/rdeco.css">
 <script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick.min.js"></script>
 <script type="text/javascript">
 $(function(){
     $("#header").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/header.html");
     $("#footer").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/footer.html");
+    $('.slider').slick();
 })
-$(function() {
-     $('.thumb-item').slick({
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          fade: true,
-          asNavFor: '.thumb-item-nav'
-     });
-     $('.thumb-item-nav').slick({
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          asNavFor: '.thumb-item',
-          focusOnSelect: true,
-     });
-});
 </script>
 </head>
 
@@ -206,27 +191,17 @@ Banner2
 <!--</div>-->
 
 
-
-
-<!--********** FIRST LOAD **********-->
-<link rel="stylesheet" type="text/css" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick-theme.css"/>
-
 <!--********** FIRST LOAD **********-->
 <!-- ↓スライダー本体 -->
-<ul class="thumb-item">
-     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
-</ul>
-<!-- ↓サムネイル -->
-<ul class="thumb-item-nav">
-     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
-</ul>
+<div class="slider">
+    <div><img src="./img/rankingno.1.JPG" alt=""></div>
+    <div><img src="./img/rankingno.1.JPG" alt=""></div>
+    <div><img src="./img/rankingno.1.JPG" alt=""></div>
+    <div><img src="./img/rankingno.1.JPG" alt=""></div>
+    <div><img src="./img/rankingno.1.JPG" alt=""></div>
+    <div><img src="./img/rankingno.1.JPG" alt=""></div>
+</div>
 jQuery
-<script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick.min.js"></script>
 
 
 <!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
