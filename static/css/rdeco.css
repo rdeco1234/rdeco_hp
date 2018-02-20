@@ -124,6 +124,11 @@ tm3 {
 /* カルーセル　サイズ調節 */
 
 .carousel{
-  width:60%;  /*希望するサイズ*/
+  width:40%;
   margin:auto;
+}
+
+
+.carousel img{
+  width:100%; 
 }
