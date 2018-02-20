@@ -27,14 +27,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/js/jquery-2.1.4.min.js"></script>
 <script src="slick.min.js"></script>
 <script type="text/javascript">
-// ヘッダフッタ
 $(function(){
     $("#header").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/header.html");
     $("#footer").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/footer.html");
 })
-// slick
 $(function() {
-    $('.single-item').slick();
+     $('.thumb-item').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.thumb-item-nav' //サムネイルのクラス名
+     });
+     $('.thumb-item-nav').slick({
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: '.thumb-item', //スライダー本体のクラス名
+          focusOnSelect: true,
+     });
 });
 </script>
 </head>
@@ -197,13 +209,24 @@ Banner2
 
 
 
-
-<ul class="slider">
-     <li><a href="#"><img src="./img/rankingno.1.JPG"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG"></a></li>
-     <li><a href="#"><img src="./img/rankingno.1.JPG"></a></li>
+<!--********** FIRST LOAD **********-->
+<link rel="stylesheet" type="text/css" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick-theme.css"/>
+<script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/slick/slick/slick.min.js"></script>
+<!--********** FIRST LOAD **********-->
+<!-- ↓スライダー本体 -->
+<ul class="thumb-item">
+     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
+     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
+     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
 </ul>
+<!-- ↓サムネイル -->
+<ul class="thumb-item-nav">
+     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
+     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
+     <li><a href="#"><img src="./img/rankingno.1.JPG" width="50%" height="auto"></a></li>
+</ul>
+jQuery
 
 
 <!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
