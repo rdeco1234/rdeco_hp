@@ -27,10 +27,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/js/jquery-2.1.4.min.js"></script>
 <script src="slick.min.js"></script>
 <script type="text/javascript">
+// ヘッダフッタ
 $(function(){
     $("#header").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/header.html");
     $("#footer").load("/rdeco.sakura.ne.jp/htdocs/rdeco_hp/footer.html");
 })
+// slick
+$(function() {
+    $('.single-item').slick();
+});
 </script>
 </head>
 
