@@ -27,6 +27,30 @@ position: relative;
 width:100%;
 text-align:center;
 background-color:#ffffff;
+}
+
+#rinen p{
+position: relative;
+width:100%;
+font-size:35px;
+background-color:#ffffff;
+}
+
+
+#greeting {
+position: relative;
+width:100%;
+text-align:center;
+background-color:#ffffff;
+}
+
+#greeting p{
+position: relative;
+width:100%;
+text-align:center;
+font-size:25px;
+background-color:#ffffff;
+}
 
 
 
