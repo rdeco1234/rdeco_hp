@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" href="http://rdeco.sakura.ne.jp/rdeco_hp/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://rdeco.sakura.ne.jp/rdeco_hp/static/css/rdeco.css">
-<link href="http://rdeco.sakura.ne.jp/rdeco_hp/css/top_design.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://rdeco.sakura.ne.jp/rdeco_hp/css/top_design.css" rel="stylesheet" type="text/css" media="all" >
 <script src="http://rdeco.sakura.ne.jp/rdeco_hp/static/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript">
 $(function(){
@@ -29,10 +29,8 @@ $(function(){
 </script>
 </head>
 
-
 <!-- ********************************* body ************************************ -->
 <body link="#20B2AA" vlink="#7B68EE" alink="#00CED1">
-<link href="./css/top_design.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--***********
 Grid System
@@ -49,12 +47,14 @@ Header
 <!-- *********   ！！！！！！！！ここから下を編集！！！！！！！！ 　*********** -->
 <!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
 
+<link rel="stylesheet" href="./css/company_access_map.css">
+
 <!--***********
 Content
 ***************-->
 <div id="container">
 <div>‐東京本社‐</div>
-<div id="rdeco_map" style="width:60%;height:300px"></div>
+<div id="rdeco_map" style="width:100%;height:300px"></div>
 </br></br>
 住所 / 東京都港区南青山 3-1-3</br>
 スプライン青山東急ビル6階</br>
@@ -76,15 +76,14 @@ Content
     });
   }
 </script>
-<div id="rdeco_map">
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAbmyb2Qen81JOhogZ_oRVI2XJxScM8Gw&callback=initMap">
-    </script>
-</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAbmyb2Qen81JOhogZ_oRVI2XJxScM8Gw&callback=initMap" async defer>
+</script>
 
 <!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
 <!-- *********   ！！！！！！！！ここから上を編集！！！！！！！！ 　*********** -->
 <!-- *********   ！！！！！！！！！！！！！！！！！！！！！！！！ 　*********** -->
+
+
 
 <!--***********
 Footer
