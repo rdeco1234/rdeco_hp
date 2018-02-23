@@ -32,8 +32,9 @@ background-color:#ffffff;
 #rinen p{
 position: relative;
 width:100%;
-font-size:35px;
+font-size:25px;
 background-color:#ffffff;
+text-decoration: underline
 }
 
 
