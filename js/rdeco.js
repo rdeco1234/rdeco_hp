@@ -1,4 +1,5 @@
 ﻿$(function() {
+    $('.single-item').slick();
     $('.multiple-item').slick({
           infinite: true,
           dots:true,
@@ -19,8 +20,6 @@
                }
           ]
      });
-});
-$(function() {
     $('.center-item').slick({
           infinite: true,
           dots:true,
