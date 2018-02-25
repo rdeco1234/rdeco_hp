@@ -1,5 +1,5 @@
 ﻿$(function() {
-    $('.single-item').slick()
+    $('.single-item').slick();
     $('.multiple-item').slick({
           infinite: true,
           dots:true,
