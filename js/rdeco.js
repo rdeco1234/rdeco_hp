@@ -20,6 +20,11 @@
                }
           ]
      });
+<<<<<<< Updated upstream
+=======
+});
+$(function() {
+>>>>>>> Stashed changes
     $('.center-item').slick({
           infinite: true,
           dots:true,
