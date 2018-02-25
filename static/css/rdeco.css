@@ -8,9 +8,9 @@
 	background-repeat:no-repeat;
 	background-color:white;
 	padding:5px;
-	/*width:350px;*/
+	width:350px;
 	height:90px;
-    max-width: 50%;
+    text-align:center;
 }
 
 /* solid */
