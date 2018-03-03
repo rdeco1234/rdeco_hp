@@ -37,21 +37,13 @@
 }
 
 /* bootstrapメニューをcentering */
-.navbar-toggle {
-    z-index: 2;
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
 }
-.navbar-brand-center {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align:center;
-    margin: auto;
-}
-@media (min-width: 768px) {
-    .navbar-brand-center {
-        margin-left: 0 !important;
-    }
 }
 
 /*** Body **************
