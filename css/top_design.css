@@ -30,8 +30,8 @@ font-family:ＭＳ Ｐ明朝;
 */
 
 dt{
-color:blue;
-font-size:6px;
+color:#DCDCDC; /*GainsBoro*/
+font-size:30px;
 }
 
 dt.align_center{
