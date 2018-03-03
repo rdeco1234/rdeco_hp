@@ -28,8 +28,10 @@ font-family:ＭＳ Ｐ明朝;
 
 }
 */
-dt em{
-color:blue;font-size:30px;
+
+dt{
+color:blue;
+font-size:6px;
 }
 
 dt.align_center{
