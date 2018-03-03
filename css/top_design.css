@@ -33,6 +33,19 @@ dt{
 color:#DCDCDC; /*GainsBoro*/
 font-size:30px;
 }
+dt2{
+color:#DCDCDC; /*GainsBoro*/
+font-size:25px;
+}
+dt3{
+color:#DCDCDC; /*GainsBoro*/
+font-size:20px;
+}
+dt4{
+color:#DCDCDC; /*GainsBoro*/
+font-size:15px;
+}
+
 
 dt.align_center{
    text-align:center;
