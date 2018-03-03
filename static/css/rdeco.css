@@ -39,10 +39,9 @@
 
 /*** Body **************
  ***/
-div.rdeco_normal_body {
-    padding:10px;
-	background-repeat:no-repeat;
+.rdeco_normal_body {
 	background-color:White;
+	font-family:"Yu Gothic":
 }
 
 /*** Banner ************
