@@ -2,9 +2,9 @@
     $('.single-item').slick();
     $('.multiple-item').slick({
           infinite: true,
-          dots:true,
-          slidesToShow: 6,
-          slidesToScroll: 6,
+          dots:false,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           responsive: [{
                breakpoint: 768,
                     settings: {
