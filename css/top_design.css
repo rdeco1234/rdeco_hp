@@ -1,11 +1,18 @@
-﻿#header {
-/*position: relative;*/
+﻿/*
+#header {
 width:100%;
-/*text-align:center;*/
 background-color:#fff;
 white-space:nowrap;
 color:Lavender;
 }
+
+#footer {
+position: relative;
+width:100%;
+text-align:center;
+background-color:#ffffff;
+}
+
 
 #container {
 position: relative;
@@ -20,7 +27,7 @@ color:glay;font-size:50px;
 font-family:ＭＳ Ｐ明朝;
 
 }
-
+*/
 dt em{
 color:blue;font-size:30px;
 }
@@ -28,15 +35,3 @@ color:blue;font-size:30px;
 dt.align_center{
    text-align:center;
 }
-
-
-#footer {
-position: relative;
-width:100%;
-text-align:center;
-background-color:#ffffff;
-}
-
-
-
-
