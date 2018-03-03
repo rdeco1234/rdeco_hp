@@ -2,7 +2,7 @@
     $('.single-item').slick();
     $('.multiple-item').slick({
           infinite: true,
-          dots:true,
+          dots:false,
           slidesToShow: 3,
           slidesToScroll: 3,
           responsive: [{
