@@ -1,51 +1,22 @@
-﻿/*
-#header {
-width:100%;
-background-color:#fff;
-white-space:nowrap;
-color:Lavender;
-}
-
-#footer {
-position: relative;
-width:100%;
-text-align:center;
-background-color:#ffffff;
-}
-
-
-#container {
-position: relative;
-width:100%;
-text-align:center;
-background-color:#ffffff;
-}
-
-
-strong{
-color:glay;font-size:50px;
-font-family:ＭＳ Ｐ明朝;
-
-}
-*/
-
-dt{
+﻿dt{
 color:black;
-font-size:30px;
 }
+
 dt2{
-color:black;
-font-size:25px;
 }
+
 dt3{
 color:#708090; /*SlateGray*/
-font-size:20px;
 }
+dt3.new{
+padding:2;
+color:white;
+background-color:#66CDAA; /*MediumAquamarine*/
+}
+dt3.more{
+color:#708090; /*SlateGray*/
+}
+
 dt4{
-font-size:15px;
-}
-
-
-dt.align_center{
-   text-align:center;
+color:#708090;
 }
