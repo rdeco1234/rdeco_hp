@@ -13,6 +13,10 @@ font-size:25px;
 }
 
 dt3{
+color:black;
+font-size:20px;
+}
+dt3.info{
 color:#708090; /*SlateGray*/
 font-size:20px;
 }
