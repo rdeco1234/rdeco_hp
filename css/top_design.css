@@ -1,13 +1,16 @@
 ﻿dt{
 color:black;
+font-size:30px;
 }
 
 dt2{
 color:black;
+font-size:25px;
 }
 
 dt3{
 color:#708090; /*SlateGray*/
+font-size:20px;
 }
 dt3.new{
 padding:0 2;
@@ -20,4 +23,5 @@ color:#708090; /*SlateGray*/
 
 dt4{
 color:#708090;
+font-size:15px;
 }
