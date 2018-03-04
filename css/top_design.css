@@ -9,7 +9,7 @@ dt3{
 color:#708090; /*SlateGray*/
 }
 dt3.new{
-padding:2;
+padding:0 2;
 color:white;
 background-color:#66CDAA; /*MediumAquamarine*/
 }
