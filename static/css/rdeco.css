@@ -144,3 +144,9 @@ tm3 {
 .carousel img{
   width:50%;
 }
+
+table tr{
+    border-bottom:1px #eee solid;
+}
+
+
