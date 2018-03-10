@@ -1,0 +1,16 @@
+.reset_style {
+  table {
+    border-collapse: initial;
+    border-spacing: initial;
+    border-width: initial;
+    border-color: initial;
+  }
+  tr {
+    border-bottom: initial;
+  }
+  td {
+    vertical-align: initial;
+    padding: initial;
+  }
+
+}
