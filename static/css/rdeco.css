@@ -145,4 +145,8 @@ tm3 {
   width:50%;
 }
 
+table tr{
+    border-bottom:1px #eee solid;
+}
+
 
