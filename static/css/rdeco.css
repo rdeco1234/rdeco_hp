@@ -156,8 +156,8 @@ a{
   text-align:center;
   text-decoration: none;
 }
-a:link {color:#708090;}
-a:visited{color:#708090;}
-a:hover{color:#DDA0DD;text-decoration: none}
-a:active{color:#708090;}
+a:link {color:#708090;text-decoration: none;}
+a:visited{color:#708090;text-decoration: none;}
+a:hover{color:#DDA0DD;text-decoration: none;}
+a:active{color:#708090;text-decoration: none;}
 
