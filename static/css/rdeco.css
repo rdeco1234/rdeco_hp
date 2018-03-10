@@ -145,8 +145,18 @@ tm3 {
   width:50%;
 }
 
+/* テーブル */
 table tr{
     border-bottom:1px #DCDCDC solid;
 }
 
+/* リンク */
+a{
+  color:initial;
+  text-decoration: none;
+}
+a:link {color:#708090;}
+a:visited{color:#008000;}
+a:hover{color:#ff00ff;}
+a:active{color:#708090;}
 
