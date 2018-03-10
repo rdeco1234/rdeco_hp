@@ -152,11 +152,12 @@ table tr{
 
 /* リンク */
 a{
-  color:initial;
+  display:block;
+  text-align:center;
   text-decoration: none;
 }
 a:link {color:#708090;}
-a:visited{color:#008000;}
-a:hover{color:#ff00ff;}
+a:visited{color:#708090;}
+a:hover{color:#DDA0DD;text-decoration: none}
 a:active{color:#708090;}
 
