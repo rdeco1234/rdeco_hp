@@ -18,11 +18,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /rdeco.sakura.ne.jp/htdocs/rdeco_hp/cms/
+RewriteBase /rdeco-blog/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /rdeco.sakura.ne.jp/htdocs/rdeco_hp/cms/index.php [L]
+RewriteRule . /rdeco-blog/index.php [L]
 </IfModule>
 
 # END WordPress
