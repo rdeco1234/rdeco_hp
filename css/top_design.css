@@ -3,24 +3,21 @@ text-align:center;
 }
 
 p.main{
-color:gray;
+color:black;
 font-size:15px;
-border-bottom:solid 1px gray;
 width:90%
 }
 @media only screen and (min-width:651px) {
 	p.main{
-	color:gray;
+	color:black;
 	font-size:23px;
-	border-bottom:solid 1px gray;
 	width:90%
 	}
 }
 @media only screen and (min-width:961px) {
 	p.main{
-	color:gray;
+	color:black;
 	font-size:25px;
-	border-bottom:solid 1px gray;
 	width:90%
 	}
 }
