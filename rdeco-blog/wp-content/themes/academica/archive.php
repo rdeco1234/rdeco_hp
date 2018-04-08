@@ -13,7 +13,8 @@ get_header(); ?>
 
 		<h1 class="title-header"><?php
 			if ( is_category() ) {
-				printf( '<span style=\'font-size:25px;\'>' . single_cat_title( '', false ) . '</span>' );
+				// printf( '<span style=\'font-size:25px;\'>' . single_cat_title( '', false ) . '</span>' );
+                // nothing to do
 
 			} elseif ( is_tag() ) {
 				printf( '<span style=\'font-size:25px;\'>' . single_tag_title( '', false ) . '</span>' );
